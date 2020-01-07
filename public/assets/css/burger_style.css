@@ -1,4 +1,4 @@
-.wholePage {
+.container {
     background-color: #ed1c24;
     padding: 0px;
     margin: 0px;
@@ -9,4 +9,9 @@
 #logoBox {
     width: 365px;
     height: 272.5px;
+}
+
+.orderBox {
+    background-color: #ed1c24;
+    bo
 }

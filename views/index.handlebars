@@ -1,4 +1,34 @@
-    <div>
-        {{#each burgers}}
-        {{/each}}
+    <div class="row">
+
+        <div class="col-sm-1">
+        </div>
+
+        <div class="col-sm-4 orderBox">
+            <h2>Current Order:</h2>
+            <ul>
+                {{#each burgers}}
+                    {{#unless devoured}}
+                    {{> burger-block devoured=false}}
+                    {{/unless}}
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="col-sm-2">
+        </div>
+
+        <div class="col-sm-4 orderBox">
+            <h2>Past Orders:</h2>
+            <ul>
+                {{#each burgers}}
+                    {{#if devoured}}
+                    {{> burger-block devoured=true}}
+                    {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="col-sm-1">
+        </div>
+
     </div>
