@@ -1,4 +1,8 @@
-.container {
+body {
+    background-color: #ed1c24;
+}
+
+.wholePage {
     background-color: #ed1c24;
     padding: 0px;
     margin: 0px;
@@ -6,11 +10,25 @@
     width: 100vw;
 };
 
-#logoBox {
+#logo {
     width: 365px;
     height: 272.5px;
+    text-align: center;
+    margin: auto;
+}
+
+#logoBox {
+    width: 94vw;
+    margin: auto;
 }
 
 .orderBox {
     background-color: #ed1c24;
+    border: 5px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 25px;
+    line-height: 36px;
+    padding: 10px;
 }
