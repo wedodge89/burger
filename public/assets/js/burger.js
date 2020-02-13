@@ -1,6 +1,3 @@
-
-
-
 // Button click to devour burger/PUT request
 $(function() {
     $(".changeDevoured").on("click", function(event) {
