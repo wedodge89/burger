@@ -32,3 +32,13 @@ body {
     line-height: 36px;
     padding: 10px;
 }
+
+li:before {
+    content: "🍔";
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
