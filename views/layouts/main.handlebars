@@ -8,10 +8,10 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <link rel="icon" type="image/ico" href="/favicon/favicon.ico"
+    <link rel="icon" type="image/ico" href="/favicon/favicon.ico" />
 </head>
 <body>
-    <div id="container wholePage">
+    <div class="container wholePage">
         <div class="row text-center">
             <div class="col-sm-3">
             </div>
@@ -21,13 +21,17 @@
             <div class="col-sm-3">
             </div>
         </div>
-        {{{body}}}
+        
+        <div class="row">
+            {{{body}}}
+        </div>
 
     <div class="row text-center">
         <div class="col-sm m-2 p-2">
             <h2>Add burger</h2>
             <form class="burger-form">
 
+        
             <div>
                 <label>Burger Name</label>
                 <input type="text" name="name" id="burgerName">
